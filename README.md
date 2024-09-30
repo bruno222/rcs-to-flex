@@ -41,3 +41,7 @@ You should have received an RCS message like:
 ---
 
 **Known-issue**: On **Step 2**, the Studio flow there has a "Send Message" widget, it won't work because, long-story short, Studio does not send messages under the hood with the parameter `xTwilioWebhookEnabled` set like we see it [here](https://github.com/bruno222/rcs-to-flex/blob/main/rcs-to-flex.js#L28C5-L28C26), therefore the webhook `/flex-to-rcs` doesn't get triggered and this integration does not have a way of knowing when Studio sends messages.
+
+---
+
+This repository was inspired by [this repository](https://github.com/leroychan/twilio-flex-conversations-adapters/tree/master) that contains examples of integrations of various custom channels.
