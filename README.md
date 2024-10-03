@@ -1,9 +1,9 @@
 
 ## Quick tutorial on how to integrate RCS into Flex.
 
-**Step 1**: Deploy both functions `rcs-to-flex` and `flex-to-rcs` manually into Twilio Functions.
+**Step 1**: Deploy both functions [rcs-to-flex](https://github.com/bruno222/rcs-to-flex/blob/main/rcs-to-flex.js) and [flex-to-rcs](https://github.com/bruno222/rcs-to-flex/blob/main/flex-to-rcs.js) manually into Twilio Functions.
 
-**Step 2**: Ah, dont forget to put your Studio Flow SID [here](https://github.com/bruno222/rcs-to-flex/blob/main/rcs-to-flex.js#L2). Your Studio flow can be as simple as the below. The important part is to have the `Send to Flex` widget with the `Task Channel: Chat`.
+**Step 2**: Dont forget to put your Studio Flow SID [here](https://github.com/bruno222/rcs-to-flex/blob/main/rcs-to-flex.js#L2). Your Studio flow can be as simple as the below. The important part is to have the `Send to Flex` widget with the `Task Channel: Chat`.
 <img width="995" alt="image" src="https://github.com/user-attachments/assets/b1da42ae-ac8b-4ef7-b590-525494a46c23">
 <p></p>
 
